@@ -168,9 +168,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 6.0030446
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.000000059604645, y: 0.010409832, z: -0.00000011920929}
 --- !u!23 &32884199
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -325,6 +325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61027335}
   - component: {fileID: 61027336}
+  - component: {fileID: 61027337}
   m_Layer: 0
   m_Name: WheelSetBack
   m_TagString: Untagged
@@ -366,6 +367,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!75 &61027337
+ConstantForce:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61027334}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0, z: 0}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
+  m_Torque: {x: 1, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &89717128
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,9 +424,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 6.02241
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.000000059604645, y: -0.00066900253, z: -0.00000011920929}
 --- !u!23 &89717131
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -689,9 +702,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 27.769142
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.000000051830128, y: -0.124003604, z: -0.000000103660255}
 --- !u!23 &484812450
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1023,7 +1036,6 @@ GameObject:
   - component: {fileID: 766387922}
   - component: {fileID: 766387927}
   - component: {fileID: 766387926}
-  - component: {fileID: 766387928}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1039,8 +1051,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766387918}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1, y: 6.07, z: -43.7}
-  m_LocalScale: {x: 5, y: 1, z: 8}
+  m_LocalPosition: {x: 0, y: 4, z: -43.7}
+  m_LocalScale: {x: 8, y: 1, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 955353282}
@@ -1134,7 +1146,7 @@ HingeJoint:
   m_GameObject: {fileID: 766387918}
   m_ConnectedBody: {fileID: 61027336}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: -2, z: -0.4}
+  m_Anchor: {x: 0, y: 0, z: -0.4}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
@@ -1170,7 +1182,7 @@ HingeJoint:
   m_GameObject: {fileID: 766387918}
   m_ConnectedBody: {fileID: 643930160}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: -2, z: 0.4}
+  m_Anchor: {x: 0, y: 0, z: 0.4}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
@@ -1197,18 +1209,6 @@ HingeJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!75 &766387928
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 766387918}
-  m_Enabled: 1
-  m_Force: {x: 0, y: 0, z: 1}
-  m_RelativeForce: {x: 0, y: 0, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &836487410
 GameObject:
   m_ObjectHideFlags: 0
@@ -1352,9 +1352,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 28.015728
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.000000051830128, y: 0.075723685, z: -0.000000103660255}
 --- !u!23 &864956684
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1599,9 +1599,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 28.239899
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.000000051830128, y: -0.044497088, z: -0.000000103660255}
 --- !u!23 &1487615754
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1697,9 +1697,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 28.217125
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.000000051830128, y: -0.028409434, z: -0.000000103660255}
 --- !u!23 &1503410110
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1795,9 +1795,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 5.9658237
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.000000059604645, y: 0.025758743, z: -0.00000011920929}
 --- !u!23 &1588824117
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2040,9 +2040,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 5.9543633
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.000000059604645, y: 0.007892132, z: -0.00000011920929}
 --- !u!23 &1915941891
 MeshRenderer:
   m_ObjectHideFlags: 0
