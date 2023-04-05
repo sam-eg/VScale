@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EngineScript : MonoBehaviour
 {
-    public Rigidbody rigidBody;
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +15,15 @@ public class EngineScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rigidBody.AddForce(new Vector3(0, 0, 5));
+        
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Hit trigger");
+        if (other.CompareTag("Looper"))
+        {
+            SceneManager.LoadScene("Terrain");
+        }
     }
 }
