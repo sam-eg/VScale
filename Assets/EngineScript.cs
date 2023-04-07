@@ -23,7 +23,7 @@ public class EngineScript : MonoBehaviour
         Debug.Log("Hit trigger");
         if (other.CompareTag("Looper"))
         {
-            SceneManager.LoadScene("Terrain");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
