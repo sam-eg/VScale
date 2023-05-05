@@ -63,7 +63,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7396243498312775604}
   - component: {fileID: 7396243498312775602}
-  - component: {fileID: 7396243498312775605}
   m_Layer: 0
   m_Name: front wheel set
   m_TagString: Untagged
@@ -107,18 +106,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &7396243498312775605
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7396243498312775607}
-  m_Enabled: 1
-  m_Force: {x: 0, y: 0, z: 20}
-  m_RelativeForce: {x: 0, y: 0, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &7396243499015664495
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,19 +885,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -9083165191494335008, guid: f3644ec480e4d4b80a9a77545784530c, type: 3}
---- !u!59 &7396243498769578697
+--- !u!59 &7396243498769578550
 HingeJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7666768787676252059}
-  m_ConnectedBody: {fileID: 7396243497048433271}
+  m_ConnectedBody: {fileID: 7396243498312775602}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0.4572, z: -0.9144}
+  m_Anchor: {x: 0, y: 0.4572, z: 0.9144}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 0
-  m_ConnectedAnchor: {x: 0, y: 0.4572, z: -0.9144}
+  m_ConnectedAnchor: {x: 0, y: 0.4572, z: 0.9144}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -934,19 +921,19 @@ HingeJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!59 &7396243498769578550
+--- !u!59 &7396243498769578697
 HingeJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7666768787676252059}
-  m_ConnectedBody: {fileID: 7396243498312775602}
+  m_ConnectedBody: {fileID: 7396243497048433271}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0.4572, z: 0.9144}
+  m_Anchor: {x: 0, y: 0.4572, z: -0.9144}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 0
-  m_ConnectedAnchor: {x: 0, y: 0.4572, z: 0.9144}
+  m_ConnectedAnchor: {x: 0, y: 0.4572, z: -0.9144}
   m_UseSpring: 0
   m_Spring:
     spring: 0
