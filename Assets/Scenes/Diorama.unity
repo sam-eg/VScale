@@ -569,6 +569,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 376746115563465871, guid: d8fb5d86f8fc84f93a0b8dcad1b5e22e, type: 3}
+      propertyPath: m_Name
+      value: Rear Truck
+      objectReference: {fileID: 0}
     - target: {fileID: 910377314789755179, guid: d8fb5d86f8fc84f93a0b8dcad1b5e22e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -616,6 +620,10 @@ PrefabInstance:
     - target: {fileID: 2970066326054559685, guid: d8fb5d86f8fc84f93a0b8dcad1b5e22e, type: 3}
       propertyPath: m_Name
       value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178391316839292232, guid: d8fb5d86f8fc84f93a0b8dcad1b5e22e, type: 3}
+      propertyPath: m_Name
+      value: Front Truck
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8fb5d86f8fc84f93a0b8dcad1b5e22e, type: 3}
