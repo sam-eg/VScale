@@ -53,3 +53,7 @@ Truck_sides has both +x and -x in one mesh, and sits up (y) same as wheels, 0.45
 | wheel_+x.fbx    | 0.69215, 0.4572, 0.9144  | 0.69215, 0.4572, -0.9144  |
 | truck_sides.fbx | 0, 0.4572, 0             | -                         |
  | truck.fbx       | 0, 0, 0                  | -                         | 
+
+### Gondola
+gondola comes in at 0,0,0
+Bogies should be at +-6.096m
