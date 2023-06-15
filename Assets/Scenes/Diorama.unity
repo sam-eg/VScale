@@ -740,24 +740,11 @@ ConstantForce:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818517847}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Force: {x: 0, y: 0, z: 400}
   m_RelativeForce: {x: 0, y: 0, z: 0}
   m_Torque: {x: 0, y: 0, z: 0}
   m_RelativeTorque: {x: 0, y: 0, z: 0}
---- !u!114 &1818517852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818517847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d8b8060b31ee4d94a51b442589ecb94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  elaspedTime: 0
 --- !u!1 &1851521893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,7 +1133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7178391316971802665, guid: d8fb5d86f8fc84f93a0b8dcad1b5e22e, type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7211527045655246796, guid: d8fb5d86f8fc84f93a0b8dcad1b5e22e, type: 3}
       propertyPath: m_LocalPosition.x
